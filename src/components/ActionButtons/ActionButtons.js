@@ -2,7 +2,7 @@ import styles from './ActionButtons.module.scss';
 
 const ActionButtons = props => {
     return (
-        <button className={styles.button}>{props.children}</button>
+        <button className={styles.button} onClick={props.onClick}>{props.children}</button>
     );
 };
 
